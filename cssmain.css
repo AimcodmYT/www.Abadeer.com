@@ -629,14 +629,16 @@ header img{
         transform: translateX(75%);
        }
     .giga a{
-        font-size: 20px;
+        font-size: 10px;
         z-index: 54654645;
         border-top: 2px #fff solid ;
         border-left: 2px #fff solid ;
     }
     .giga2 a{
         border-top: 2px #fff solid ;
+        font-size: 10px;
         border-right: 2px #fff solid ;
+        z-index: 35412413513;
     }
     header img{
         position: relative;
@@ -661,7 +663,7 @@ header img{
     }
     .first h2{
         position: relative;
-        font-size: 52px;
+        font-size: 37px;
         transform: translateX(5%);
         padding: 0;
         margin: 0;
@@ -670,17 +672,19 @@ header img{
         font-weight: 900;
         padding-top: 100px;
         text-align: left;
+        
     }
     .first h2 span{
         font-size: 13px;
         font-style: italic ;
         font-weight: 100;
         text-align: left;
+        
     }
     .first-btn{
-        margin: 1.000em 1em;
-        font-size: 25px;
-        padding: 20px 10px;
+        margin: 0.5em 1em;
+        font-size: 20px;
+        padding: 5px 10px;
     }
     .meme h2{
         color: #000;
@@ -746,6 +750,9 @@ header img{
     .christmates p{
         padding-top: 5px;
         font-size: 25px;
+    }
+    .christmates img{
+    z-index: 5;
     }
 
 }
