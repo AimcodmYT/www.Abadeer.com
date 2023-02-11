@@ -1,0 +1,751 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #000;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 100px ;
+    z-index: 2;
+}
+header img{
+    position: relative;
+    height: 100%;
+    padding-left: 10px ;
+    width: auto;/*13*/
+    margin-right: 10%;
+}
+
+
+#second-image{
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background:  black;
+    padding-top: 100px;
+}
+.insta{
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    background: linear-gradient(#833ab4 , #c13584 , #e1306c , #f77737 , #ffdc80);
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 45%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.insta img{
+    justify-content: center;
+    width: 120px;
+    height: auto;
+    margin: 20px 15px;
+    border-radius: 50%;
+    border: #833ab4 solid 3px;
+    display: inline-block;
+}
+.insta p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.insta i {
+    color: aliceblue;
+    font-size: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center; 
+}
+.insta i:hover , .insta p:hover{
+    color: #833ab4;
+}
+.fb{
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    background: #0084ff;
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 45%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.fb img{
+    justify-content: center;
+    width: 120px;
+    height: auto;
+    margin: 20px 15px;
+    border-radius: 50%;
+    border: #fff solid 3px;
+    display: inline-block;
+}
+.fb p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.fb i {
+    color: aliceblue;
+    font-size: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center;
+}
+.fb i:hover , .fb p:hover{
+    color: #fff;
+}
+.yt{
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    background: #bb0000;
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 45%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    align-items: center;
+    /**/
+    transition: 0.6s ease;
+}
+.yt img{
+    justify-content: center;
+    width: 120px;
+    height: auto;
+    margin: 20px 15px;
+    border-radius: 50%;
+    border: #fff solid 3px;
+    display: inline-block;
+}
+.yt p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.yt i {
+    color: aliceblue;
+    font-size: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center; 
+}
+.yt i:hover , .yt p:hover{
+    color: #fff;
+}
+.tiktok{
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    background: #000000;
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 45%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    align-items: center;
+    /**/
+    border: #fff solid 3px;
+    transition: 0.6s ease;
+}
+.tiktok img{
+    justify-content: center;
+    width: 120px;
+    height: auto;
+    margin: 20px 15px;
+    border-radius: 50%;
+    border: #fff solid 3px;
+    display: inline-block;
+}
+.tiktok p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.tiktok i {
+    color: aliceblue;
+    font-size: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center;
+}
+.tiktok i:hover , .tiktok p:hover{
+    color: #fff;
+}
+.snap{
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    background: #ffe600;
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 45%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    align-items: center;
+    /**/
+    transition: 0.6s ease;
+}
+.snap img{
+    justify-content: center;
+    width: 120px;
+    height: auto;
+    margin: 20px 15px;
+    border-radius: 50%;
+    border: gray solid 3px;
+    display: inline-block;
+}
+.snap p{
+    color: #000;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.snap i {
+    color: #000;
+    font-size: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center; 
+}
+.snap i:hover , .snap p:hover{
+    color: #fff;
+}
+.twitter{
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    background: #00aeff;
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 45%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    align-items: center;
+    /**/
+    transition: 0.6s ease;
+}
+.twitter img{
+    justify-content: center;
+    width: 120px;
+    height: auto;
+    margin: 20px 15px;
+    border-radius: 50%;
+    border: gray solid 3px;
+    display: inline-block;
+}
+.twitter p{
+    color: #000;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.twitter i {
+    color: #000;
+    font-size: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center;
+    
+}
+.twitter i:hover , .twitter p:hover{
+    color: #fff;
+}
+.me{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.meme{
+    background: url(matirials/th.jpg) no-repeat;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    border-radius: 25px;
+}
+.meme img{
+    width: 200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 59%;
+    border: #00aeff 2px solid;
+}
+.meme h2{
+    text-align: center;
+    padding: 45px ;
+    color: #fff;
+    font-size: 30px;
+    font-style: oblique;
+}
+.meme h3{
+    font-style:italic ;
+    color: #ffffff;
+    font-size: 50px;
+    background-color: gray;
+    margin: 20px;
+    padding: 15px 10px;
+    border: 2px #fff solid;
+    border-radius: 20px ;    
+    text-align: center;
+}
+.meme h3:hover{
+    background-color: #000000;
+    border: 2px #fff solid;
+    border-radius: 20px ;
+    transition: 0.6s ease;
+}
+.meme p{
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 40px;
+    margin: 0px 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.title{
+    padding-top: 200px;
+    background:black  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h2{
+    color: #fff;
+    font-size: 55px ;
+    font-weight: 800;
+}
+.title p{
+    color: #833ab4;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0 5px;
+}
+.icons-head{
+    position: fixed;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -9px;/*80*/
+    padding: 20px 15px;
+    border-radius: 1px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cece{
+    position: relative;
+    top: 0;
+}
+.icons-head i{
+    font-size: 40px ;
+    color: rgb(255, 255, 255);
+    width: auto;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 5.5%;
+    margin-top: 10px;
+}
+.icons-head i:hover{
+    color: gray;
+}
+.first{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: left;
+    padding-left: 130px;
+    padding-top: 200px ;
+    background: url(matirials/ezgif-1-ab4e2bbc13.gif) no-repeat;    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+}
+.first h2{
+    width: 100%;
+    color: aliceblue;
+    font-size: 85px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 500;
+    width: 100%;
+    padding-top: 100px;
+}
+.first h2:hover{
+    color: #e1306c;
+}
+.first h2 span{
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.first-btn {
+    color: #ffffff;
+    background-color: inherit;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 1.9100em 2em;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+    padding: 18px 38px;
+    border: aliceblue 6px solid;
+}
+.first-btn:hover{
+    background-color: #833ab4 ;
+    transform: scale(1.1 , 1.1);
+}
+.giga{
+    width: 50%;
+}
+.giga a{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 3px;
+    background-color: #000;
+    padding: 5px 8px;
+    color: #fff;
+    font-size: 25px;
+    text-align: right;
+    text-decoration: dotted;
+}
+.giga a:hover{ 
+    color: #833ab4;
+}
+.giga a:hover{
+    color: #833ab4;
+}
+
+
+.giga2{
+    width: 50%;
+}
+.giga2 a{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: dotted;
+}
+.giga2 a:hover{ 
+    color: #833ab4;
+}
+.giga2 a:hover{
+    color: #833ab4;
+}
+
+
+
+.copy{
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 70px ;
+}
+.copy h2{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+.copy h2 span{
+    color: #00aeff;
+    font-style: italic;
+    font-size: 30px;
+}
+.skills{
+    width: 100%;
+    background-color: #000;
+    padding: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skills-card{
+    margin: 20px 50px;
+    width: 40%;
+    border: #fff 3px solid;
+    border-radius: 25px;
+}
+.skills-card h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.skills-card p{
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    padding: 30px 10px;
+}
+.skills-card:nth-child(3){
+    padding-bottom: 50px;
+}
+
+.projects{
+    width: 100%;
+    background-color: #000;
+    height: auto;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects-card{
+    border-radius: 25px;
+    border: #0077ff 3px solid;
+    box-shadow: #fff 2px;
+    width: 80%;
+}
+.projects-card h3{
+    color: #fff;
+    padding: 30px 20px;
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 1000;
+}
+.projects-card p{
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    font-style: normal;
+    font-size: 25px ;
+}
+.projects-card p span{
+    display: block;
+    font-size: 25px;
+    padding-top: 7px;
+}
+.projects-card  div{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 30px 50px;
+}
+.christmates{
+    width: 100%;
+    background-color:#000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.christmates-card{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    border: 7px solid rgb(255, 0, 0);
+    width: 50%;
+    border-radius: 25px;
+}
+.christmates-card p{
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 45px;
+}
+.christmates-card i{
+    color: #ddd;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 20px 30px;
+}
+.christmates img{
+    position: relative;
+    width: 100%;
+    
+}
+.news{
+    width: 100%;
+    background-color: #000;
+}
+.news p{
+    color: #ddd;
+    font-size: 35px;
+    padding: 100px 50px 100px 50px;
+}
+.news p:hover{
+    color: #00aeff;
+}
+@media (min-width:360px) and (max-width:660px) {
+    .icons-head i{
+        font-size: 20px;
+        margin-right: -5px;
+    }
+    html{
+        width: 100%;
+        background-color: #000;
+    }
+    header #merry{ 
+        padding-bottom: 0;
+        position: absolute;
+        right: 50%;
+        transform: translateX(75%);
+       }
+    .giga a{
+        font-size: 20px;
+        z-index: 54654645;
+        border-top: 2px #fff solid ;
+        border-left: 2px #fff solid ;
+    }
+    .giga2 a{
+        border-top: 2px #fff solid ;
+        border-right: 2px #fff solid ;
+    }
+    header img{
+        position: relative;
+        height: 100%;
+        padding-left: 10px ;
+        width: auto;
+    }
+    body, header{
+        width: 100%;
+    }
+    .first{
+        background: url(matirials/ezgif-1-ab4e2bbc13.gif) no-repeat;
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 150px;
+        padding-right: 0;
+        padding-bottom: 0 ;
+
+    }
+    .first h2{
+        position: relative;
+        font-size: 52px;
+        transform: translateX(5%);
+        padding: 0;
+        margin: 0;
+        left: 4px;
+        width: 100%;
+        font-weight: 900;
+        padding-top: 100px;
+        text-align: left;
+    }
+    .first h2 span{
+        font-size: 13px;
+        font-style: italic ;
+        font-weight: 100;
+        text-align: left;
+    }
+    .first-btn{
+        margin: 1.000em 1em;
+        font-size: 25px;
+        padding: 20px 10px;
+    }
+    .meme h2{
+        color: #000;
+        font-size: 35px ;
+        padding-bottom: 5px;
+    }
+    .meme img{
+        width: 105px;
+        padding: 0;
+    }
+    .me{
+        position: relative;
+        width: 100%;
+        padding: 50px 20px 50px 20px;
+        
+    }
+    .meme{
+        border: #fff 3px solid;
+    }
+    .meme h3{
+        font-size: 25px;
+        padding: 10px;
+    } 
+    .meme p {
+        font-size: 18px;
+        padding: 10px 0 20px 0;
+    }
+    .title{
+        font-size: 30px;
+        padding: 0;
+    }
+    .main{
+        height: auto;
+        width: 100%;
+    }
+    .insta i, .fb i, .yt i, .snap i, .twitter i  , .tiktok i{
+        font-size: 0;
+    }
+    .insta , .fb , .yt , .tiktok , .snap , .twitter{
+        width: 90%;
+    }
+    .insta img, .fb img , .yt img, .tiktok img, .snap img , .twitter img{
+        position: relative;
+        left: 50%;
+        transform: translateX(-60%);
+    }
+    .insta p, .fb p, .yt p, .tiktok p, .snap p, .twitter p{
+        padding: 10px 20px;
+    }
+    .skills{
+        padding: 0;
+        margin: 0;
+        width: 110%;
+        position: relative;
+    }
+    .skills-card{
+        width: 80%;
+    }
+    .christmates{
+        width: 100%;
+        overflow: hidden;
+    }
+    .christmates p{
+        padding-top: 5px;
+        font-size: 25px;
+    }
+
+}

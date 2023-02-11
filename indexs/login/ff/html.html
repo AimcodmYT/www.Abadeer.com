@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.main{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;/*200*/
+    background-color: lightgray;
+    flex-wrap: wrap;
+}
+.insta{
+    border-radius: 25px;
+    margin: 1px 10%;/*1 15*/
+    width: 30%;/*70*/
+    height: 200px;
+    overflow: hidden;
+    background: linear-gradient(#833ab4 , #c13584 , #e1306c , #f77737 , #ffdc80);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s ease;
+    margin-bottom: 75px ;
+}
+.insta img{
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: #833ab4 solid 3px;
+}
+.insta p{
+    font-size: 25px ;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.insta a {
+    color: aliceblue;
+    font-size: 45px;
+    padding-right: 15px;
+}
+.title{
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 12px 24px;
+    border-radius: 24px;
+    width: 50%;
+    margin: 100px 25% 150px 25%;
+
+}
+.insta:hover{
+    transform: scale(1.11);
+}
+
+
+
+
+
+.fb{
+    border-radius: 25px;
+    margin: 1px 10%;/*1 15*/
+    width: 25%;/*70*/
+    height: 200px;
+    overflow: hidden;
+    background-color: #0e53d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s ease;
+    margin-bottom: 75px;
+}
+.fb img{
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: #fff solid 3px;
+}
+.fb p{
+    font-size: 25px ;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.fb a {
+    color: aliceblue;
+    font-size: 45px;
+    padding-right: 15px;
+}
+.title{
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 12px 24px;
+    border-radius: 24px;
+    width: 50%;
+    margin: 100px 25% 150px 25%;
+
+}
+.fb:hover{
+    transform: scale(1.11);
+}
+
+
+
+
+
+
+
+.yt{
+    border-radius: 25px;
+    margin: 1px 10%;/*1 15*/
+    width: 30%;/*70*/
+    height: 200px;
+    overflow: hidden;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s ease;
+    margin-bottom: 75px;
+}
+.yt img{
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: #fff solid 3px;
+}
+.yt p{
+    font-size: 25px ;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.yt a {
+    color: aliceblue;
+    font-size: 45px;
+    padding-right: 15px;
+}
+.title{
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 12px 24px;
+    border-radius: 24px;
+    width: 50%;
+    margin: 100px 25% 150px 25%;
+
+}
+.yt:hover{
+    transform: scale(1.11);
+}
+
+
+
+.tiktok{
+    border-radius: 25px;
+    margin: 1px 10%;/*1 15*/
+    width: 40%;/*70*/
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s ease;
+    margin-bottom: 75px;
+}
+.tiktok img{
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: #fff solid 3px;
+}
+.tiktok p{
+    font-size: 25px ;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.tiktok a {
+    color: aliceblue;
+    font-size: 45px;
+    padding-right: 15px;
+}
+.title{
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 12px 24px;
+    border-radius: 24px;
+    width: 50%;
+    margin: 100px 25% 150px 25%;
+
+}
+.tiktok:hover{
+    transform: scale(1.11);
+}
+.title{
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 12px 24px;
+    border-radius: 24px;
+    width: 50%;
+    margin: 100px 25% 150px 25%;
+
+}
+.yt:hover{
+    transform: scale(1.11);
+}
+
+
+
+.snap{
+    border-radius: 25px;
+    margin: 1px 15%;
+    width: 70%;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(255, 251, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s ease;
+    margin-bottom: 155px;
+}
+.snap img{
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: rgb(255, 251, 0) solid 3px;
+}
+.snap p{
+    font-size: 25px ;
+    color: black;
+    font-family: sans-serif;
+}
+.snap a {
+    color: black;
+    font-size: 45px;
+    padding-right: 15px;
+}
+.title{
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 12px 24px;
+    border-radius: 24px;
+    width: 50%;
+    margin: 100px 25% 150px 25%;
+
+}
+.snap:hover{
+    transform: scale(1.11);
+}
+/**//**//**//*login*//**//**//**//**/
+.login-btn{
+    width: 30%;
+    margin: 85px 30%;
+    background: linear-gradient(gray , #000);
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: fantasy ;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: #fff;
+    padding: 50px 100px;
+    border: 3px lightskyblue solid;
+    border-radius: 25px;
+    transition: 1s ease;
+}
+
+.login{
+    width: 100%;
+}
+.icons-head{
+    position: fixed;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 80px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icons-head i{
+    font-size: 40px ;
+    color: rgb(255, 255, 255);
+    width: auto;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 5.5%;
+    margin-top: 10px;
+}
+.icons-head i:hover{
+    color: gray;
+}
+
+/**//**//**//*login*//**//**//**//**/
+.skills{
+    background: linear-gradient(rgb(143, 143, 143)) ;
+}
+@media (max-width="660") and (min-width="360") {
+    header img{
+        position: relative;
+        height: 100%;
+        padding-left: 10px ;
+        width: auto;
+    }
+}
+    </style>
+</head>
+<body>
+    <section class="main">
+        <h6 class="title">
+            FIRST<br>
+            Social Media</h6>
+    
+    
+        <div class="insta">
+            <img src="matirials/IMG-20230126-WA0001.jpg" >
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <p>insta: @ur_fav_abadeer</p>
+        </div>
+    
+    
+        
+        <div class="fb">
+            <img src="matirials/fb.jpg" >
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <p>Facebook: Abadeer Magdy</p>
+        </div>
+    
+    
+        <div class="yt">
+            <img src="matirials/yt.jpg" >
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <p>Channel: AIM CODM     </p>
+        </div>
+    
+    
+        <div class="tiktok">
+            <img src="matirials/yt.jpg" >
+            <a href=""><i class="fab fa-tiktok"></i></a>
+            <p>Account: @aim_c0dmyt</p>
+        </div>
+    
+    
+        <div class="snap">
+            <img src="matirials/snap.jpg" >
+            <a href=""><i class="fab fa-snapchat"></i></a>
+            <p>snap: @urfav_abadeer</p>
+        </div>
+    
+        <div class="login">
+            <a href="indexs/login/index.html" class="login-btn">Login Now</a>
+        </div>
+        
+    </section>
+    
+    
+    
+</body>
+</html>

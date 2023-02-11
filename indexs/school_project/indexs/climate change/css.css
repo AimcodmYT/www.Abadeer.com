@@ -1,0 +1,152 @@
+<div class="box">
+<span></span>
+<div class="content">
+    <img src="matirials/global-warming.jpg">
+    <h2>What is the "Climate change"?</h2>
+    <p>What is global warming?
+        A: Since the Industrial Revolution, the global annual temperature has increased in total by a little more than 1 degree Celsius, or about 2 degrees Fahrenheit. Between 1880—the year that accurate recordkeeping began—and 1980, it rose on average by 0.07 degrees Celsius (0.13 degrees Fahrenheit) every 10 years. Since 1981, however, the rate of increase has more than doubled: For the last 40 years, we’ve seen the global annual temperature rise by 0.18 degrees Celsius, or 0.32 degrees Fahrenheit, per decade.</p>
+    <a href="https://www.bing.com/search?q=what+is+the+climate+change&qs=n&form=QBRE&sp=-1&pq=what+is+the+climate+chan&sc=10-24&sk=&cvid=AFFD8C35792E4656BA45D7B0E1D8AFB1&ghsh=0&ghacc=0&ghpl=">Read more</a>
+</div>
+</div>
+
+
+.containear .box:nth-child(6) .content h2{
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    margin-bottom: 30px;
+    padding: 9px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containear .box:nth-child(6) .content p{
+    background:rgba(255, 196, 1, .2);
+    padding: 9px;
+    border-radius: 25px;
+}
+.containear .box:nth-child(6){
+    width: 70%;
+    height: 400px;/*500*/
+}
+.containear .box .content:nth-child(6){
+    position: relative;
+}
+.containear .box:nth-child(6) .content img{
+    position: static;
+    top: 5px;
+    height: 150px;/*150*/
+    width: 50%;
+    align-items: center;    
+    padding-top: 0px;
+    margin-top: -45px;
+    margin-bottom: 30px;/*80*/
+}
+
+.containear .box:nth-child(6)::before{
+    background: linear-gradient(#ffbc00 , #ff0058) ;
+}
+
+.containear .box:nth-child(6){
+    width: 70%;
+    height: 600px;
+}
+
+
+.containear .box:nth-child(6)::after{
+    background: linear-gradient(#ffbc00 , #ff0058) ;
+}
+.containear .box:nth-child(6)
+
+
+.containear .box:nth-child(6) .content img{
+    margin-top: 0px;/*320*/
+    height: 200px;
+    width: 85%;
+    border-radius: 20px;
+    border: rgba(255, 230, 0, 0.5) 4px solid;
+}
+.containear .box:nth-child(6){
+    height: auto;/*800*/
+    width: 90%;
+}
+
+
+
+.containear .box:nth-child(6) .content img{
+    margin-top: 0px;/*320*/
+    height: 200px;
+    width: 85%;
+    border-radius: 20px;
+    border: rgba(255, 230, 0, 0.5) 4px solid;
+}
+.containear .box:nth-child(6){
+    height: auto;/*800*/
+    width: 90%;
+}
+
+
+.containear .box:nth-child(6){
+    height: auto;
+    width: 90%;
+}
+
+.containear .box:nth-child(6){
+    height: auto;
+    width: 90%;
+}
+.containear .box:nth-child(6) .content img{
+    margin-top: 40px;
+}
+
+.containear .box:nth-child(6) img{
+    position: absolute;
+    top: 5px;
+    width: 70%;
+    width: 200px;
+}
+.content:nth-child(6){
+    margin-top: 50px;
+    height: 100px;
+}
+.containear .box:nth-child(6) .content h2{
+    font-size: 35px;
+}
+.containear .box:nth-child(6) .content p{
+    font-size: 30px;
+}
+.containear .box:nth-child(6) .content a{
+    font-size: 25px;
+}
+
+.containear .box:nth-child(6){
+    height: auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.containear .box:nth-child(6) img{
+    width: 90%;
+    height: 300px;
+}
+.containear .box:nth-child(6) .content h2{
+    font-size: 35px;
+}
+.containear .box:nth-child(6) .content p{
+    font-size: 30px;
+}
+
+
+.containear .box:nth-child(6){
+    height: auto;
+    width: 90%;
+}
+
+.containear .box:nth-child(6) img{
+    width: 90%;
+    height: 300px;
+}
+.containear .box:nth-child(6) .content h2{
+    font-size: 35px;
+}
+.containear .box:nth-child(6) .content p{
+    font-size: 30px;
+}
