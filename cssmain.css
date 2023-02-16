@@ -18,10 +18,12 @@ header img{
     height: 100%;
     padding-left: 10px ;
     width: auto;/*13*/
-    margin-right: 10%;
+    margin-right: 10%;/*10%*/
 }
 
-
+#merry{
+    padding-left: 0;
+}
 #second-image{
     right: 0;
     position: absolute;
@@ -29,42 +31,62 @@ header img{
 }
 .main{
     width: 100%;
-    height: 100vh;
+    
     background:  black;
     padding-top: 100px;
 }
 .insta{
-    margin-right: 30px;
+    margin-right: 20px;
     margin-left: 30px;
     flex-wrap: wrap;
     background: linear-gradient(#833ab4 , #c13584 , #e1306c , #f77737 , #ffdc80);
     border-radius: 25px;
     overflow: hidden;
     height: auto;
-    width: 45%;
+    width: 40%;
     display: inline-flex;
     align-items: center;
     margin-bottom: 50px;
     align-items: center;
     transition: 0.6s ease;
+    
 }
+
+/*
+    margin-right: 20px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    align-items: center;
+    transition: 0.6s ease;
+    */
 .insta img{
     justify-content: center;
-    width: 120px;
+    width: 100px;/*120*/
     height: auto;
-    margin: 20px 15px;
+    margin: 20px 5px 20px 5px;
     border-radius: 50%;
-    border: #833ab4 solid 3px;
+    border: #fff solid 3px;
     display: inline-block;
+    
 }
 .insta p{
     color: aliceblue;
-    font-size: 25px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-bottom: 10px;
     font-family: sans-serif;
 }
 .insta i {
     color: aliceblue;
-    font-size: 45px;
+    font-size: 0;
     margin-right: 10px;
     display: inline-block;
     align-items: center; 
@@ -72,7 +94,9 @@ header img{
 .insta i:hover , .insta p:hover{
     color: #833ab4;
 }
+/*
 .fb{
+   
     margin-right: 30px;
     margin-left: 30px;
     flex-wrap: wrap;
@@ -80,7 +104,23 @@ header img{
     border-radius: 25px;
     overflow: hidden;
     height: auto;
-    width: 45%;
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+
+    align-items: center;
+    transition: 0.6s ease;
+    margin-right: 20px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    background: #0084ff;
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 40%;
     display: inline-flex;
     align-items: center;
     margin-bottom: 50px;
@@ -89,21 +129,24 @@ header img{
 }
 .fb img{
     justify-content: center;
-    width: 120px;
+    width: 100px;
     height: auto;
-    margin: 20px 15px;
+    margin: 20px 5px;
     border-radius: 50%;
     border: #fff solid 3px;
     display: inline-block;
+    
 }
 .fb p{
     color: aliceblue;
     font-size: 25px;
+    padding-left: 0;
+    padding-bottom: 10px;
     font-family: sans-serif;
 }
 .fb i {
     color: aliceblue;
-    font-size: 45px;
+    font-size: 0;
     margin-right: 10px;
     display: inline-block;
     align-items: center;
@@ -119,22 +162,23 @@ header img{
     border-radius: 25px;
     overflow: hidden;
     height: auto;
-    width: 45%;
+    width: 40%;
     display: inline-flex;
     align-items: center;
     margin-bottom: 50px;
     align-items: center;
-    /**/
+    
     transition: 0.6s ease;
 }
 .yt img{
     justify-content: center;
-    width: 120px;
+    width: 100px;
     height: auto;
-    margin: 20px 15px;
+    margin: 20px 5px;
     border-radius: 50%;
     border: #fff solid 3px;
     display: inline-block;
+    
 }
 .yt p{
     color: aliceblue;
@@ -143,7 +187,7 @@ header img{
 }
 .yt i {
     color: aliceblue;
-    font-size: 45px;
+    font-size: 0;
     margin-right: 10px;
     display: inline-block;
     align-items: center; 
@@ -159,12 +203,12 @@ header img{
     border-radius: 25px;
     overflow: hidden;
     height: auto;
-    width: 45%;
+    width: 40%;
     display: inline-flex;
     align-items: center;
     margin-bottom: 50px;
     align-items: center;
-    /**/
+   
     border: #fff solid 3px;
     transition: 0.6s ease;
 }
@@ -176,6 +220,7 @@ header img{
     border-radius: 50%;
     border: #fff solid 3px;
     display: inline-block;
+    
 }
 .tiktok p{
     color: aliceblue;
@@ -184,7 +229,7 @@ header img{
 }
 .tiktok i {
     color: aliceblue;
-    font-size: 45px;
+    font-size: 0;
     margin-right: 10px;
     display: inline-block;
     align-items: center;
@@ -200,12 +245,12 @@ header img{
     border-radius: 25px;
     overflow: hidden;
     height: auto;
-    width: 45%;
+    width: 40%;
     display: inline-flex;
     align-items: center;
     margin-bottom: 50px;
     align-items: center;
-    /**/
+    
     transition: 0.6s ease;
 }
 .snap img{
@@ -216,6 +261,7 @@ header img{
     border-radius: 50%;
     border: gray solid 3px;
     display: inline-block;
+    
 }
 .snap p{
     color: #000;
@@ -224,7 +270,7 @@ header img{
 }
 .snap i {
     color: #000;
-    font-size: 45px;
+    font-size: 0;
     margin-right: 10px;
     display: inline-block;
     align-items: center; 
@@ -240,12 +286,13 @@ header img{
     border-radius: 25px;
     overflow: hidden;
     height: auto;
-    width: 45%;
+    width: 40%;
     display: inline-flex;
     align-items: center;
     margin-bottom: 50px;
     align-items: center;
-    /**/
+    padding-bottom: 100px ;
+    
     transition: 0.6s ease;
 }
 .twitter img{
@@ -256,6 +303,7 @@ header img{
     border-radius: 50%;
     border: gray solid 3px;
     display: inline-block;
+    
 }
 .twitter p{
     color: #000;
@@ -264,7 +312,7 @@ header img{
 }
 .twitter i {
     color: #000;
-    font-size: 45px;
+    font-size: 0;
     margin-right: 10px;
     display: inline-block;
     align-items: center;
@@ -273,6 +321,25 @@ header img{
 .twitter i:hover , .twitter p:hover{
     color: #fff;
 }
+
+*/
+#yt{
+    background: #bb0000 ;
+}
+#twitter{
+    background: #00aeff;
+}
+#snap{
+    background: #ffe600;
+}
+#tiktok{
+    background: #000;
+    border: 2px #fff solid;
+}
+#fb{
+    background: #0077ff;
+}
+
 .me{
     width: 100%;
     background-color: #000000;
@@ -328,7 +395,8 @@ header img{
     padding: 15px 40px;
     margin: 0px 10px;
     font-family: Georgia, Times, 'Times New Roman', serif;
-}
+} 
+
 .title{
     padding-top: 200px;
     background:black  ;
@@ -347,13 +415,14 @@ header img{
     font-weight: 600;
     padding: 0 5px;
 }
+
 .icons-head{
     position: fixed;
     left: 0;
     background-color: #000;
     width: 100%;
     margin-left: 0px;
-    margin-top: -9px;/*80*/
+    margin-top: -9px;
     padding: 20px 15px;
     border-radius: 1px;
     
@@ -361,12 +430,13 @@ header img{
     justify-content: center;
     text-align: center;
 }
+
 .cece{
     position: relative;
     top: 0;
 }
 .icons-head i{
-    font-size: 40px ;
+    font-size: 30px ;
     color: rgb(255, 255, 255);
     width: auto;
     top: 0;
@@ -379,22 +449,23 @@ header img{
 .icons-head i:hover{
     color: gray;
 }
+
 .first{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
-    align-items: left;
-    padding-left: 130px;
+    align-items: center;
     padding-top: 200px ;
     background: url(matirials/ezgif-1-ab4e2bbc13.gif) no-repeat;    
     background-size: cover ;
     background-position: center;
     background-attachment: fixed;
 }
+
 .first h2{
     width: 100%;
     color: aliceblue;
-    font-size: 85px;
+    font-size: 65px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -406,6 +477,7 @@ header img{
 .first h2:hover{
     color: #e1306c;
 }
+
 .first h2 span{
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -414,6 +486,7 @@ header img{
     font-size: 32px;
     color: #ffffff;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 .first-btn {
     color: #ffffff;
@@ -422,7 +495,7 @@ header img{
     font-size: 30px;
     font-weight: 600;
     display: inline-block;
-    margin: 1.9100em 2em;
+    margin: 1.9100em 50px;
     border-radius: 15px;
     letter-spacing: 1px;
     margin-bottom: 40px;
@@ -434,6 +507,7 @@ header img{
     background-color: #833ab4 ;
     transform: scale(1.1 , 1.1);
 }
+
 .giga{
     width: 50%;
 }
@@ -478,8 +552,62 @@ header img{
     color: #833ab4;
 }
 
+/**//**/
+/*
+.first{
+    
+    display: flex;
+    align-items: left;
+   
+    background: url(matirials/ezgif-1-ab4e2bbc13.gif) no-repeat;    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
 
+    padding-top: 220px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+/*
+.first h2{
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 55px;
+}
+.first h2 span{
+    font-size: 30px;
+}
+*/
+/*
+.first-btn {
+    color: #ffffff;
+    background-color: inherit;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    display: inline-block;
+    margin: 2.0em 1em;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+    padding: 10px 30px;
+    border: aliceblue 6px solid;
+    right: 50%;
+    transform: translateX(35%);
+}
+*/
+.first-btn:hover{
+    background-color: #833ab4 ;
+    transform: scale(1.1 , 1.1);
+}
 .copy{
     width: 100%;
     background-color: #000;
@@ -613,30 +741,38 @@ header img{
 .news p:hover{
     color: #00aeff;
 }
+
 @media (min-width:360px) and (max-width:660px) {
-    .icons-head i{
-        font-size: 20px;
-        margin-right: -5px;
+
+    /*
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    html{
+    header{
         width: 100%;
-        background-color: #000;
+    }
+
+    header{
+        width: 000%;
     }
     header #merry{ 
         padding-bottom: 0;
-        position: absolute;
-        right: 50%;
+        position: absolute;/*abs*/
+        /*display: flex;*/
+        /*right: 50%;
         transform: translateX(75%);
        }
     .giga a{
-        font-size: 10px;
+        font-size: 20px;
         z-index: 54654645;
         border-top: 2px #fff solid ;
         border-left: 2px #fff solid ;
     }
     .giga2 a{
         border-top: 2px #fff solid ;
-        font-size: 10px;
+        font-size: 20px;
         border-right: 2px #fff solid ;
         z-index: 35412413513;
     }
@@ -649,43 +785,7 @@ header img{
     body, header{
         width: 100%;
     }
-    .first{
-        background: url(matirials/ezgif-1-ab4e2bbc13.gif) no-repeat;
-        background-size: cover ;
-        background-position: center;
-        background-attachment: fixed;
-        width: 100%;
-        padding-left: 0;
-        padding-top: 150px;
-        padding-right: 0;
-        padding-bottom: 0 ;
-
-    }
-    .first h2{
-        position: relative;
-        font-size: 37px;
-        transform: translateX(5%);
-        padding: 0;
-        margin: 0;
-        left: 4px;
-        width: 100%;
-        font-weight: 900;
-        padding-top: 100px;
-        text-align: left;
-        
-    }
-    .first h2 span{
-        font-size: 13px;
-        font-style: italic ;
-        font-weight: 100;
-        text-align: left;
-        
-    }
-    .first-btn{
-        margin: 0.5em 1em;
-        font-size: 20px;
-        padding: 5px 10px;
-    }
+    
     .meme h2{
         color: #000;
         font-size: 35px ;
@@ -718,7 +818,7 @@ header img{
     }
     .main{
         height: auto;
-        width: 100%;
+        width: 110%;
     }
     .insta i, .fb i, .yt i, .snap i, .twitter i  , .tiktok i{
         font-size: 0;
@@ -744,7 +844,7 @@ header img{
         width: 80%;
     }
     .christmates{
-        width: 100%;
+        width: 110%;
         overflow: hidden;
     }
     .christmates p{
@@ -754,5 +854,44 @@ header img{
     .christmates img{
     z-index: 5;
     }
-
+    body{
+        width: 100%;
+    }
+    html{
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+    }*/
+}
+@media (min-width:360px) and (max-width:660px) {
+    *{
+        width: 100%;
+    }
+    body{
+        background-color: #000000;
+    }
+    header #second-image{
+        right: 0;
+        top: 0;
+        margin-right: 0;
+    }
+    header img{
+        margin-right: 0%;
+    }
+    header{
+        margin-bottom: 0;
+    }
+    .first-btn {
+        margin: 0;
+    }
+    .icons-head{
+        width: 100%;
+        margin-top: -83px;
+    }
+    .icons-head i{
+        font-size: 20px;
+        margin-right: -5px;
+    }
+    
 }
